@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    height: 12em;
+    background-image: url(../img/hunter.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3.5em;
+}
+
+.header h1 {
+    font-size: 3em;
+    padding: 1em 1em 0 2em;
+    font-weight: 400;
+    color: white;
+    text-align: right;
+}
+
+.header h1 span {
+    font-weight: bold;
+}
+
+.header h2 {
+    font-size: 1.5em;
+    padding: 0 2em 0 0;
+    font-weight: 400;
+    color: white;
+    text-align: right;
+}
+
+.oficinas {
+    width: 50%;
+    margin: auto;
+}
+
+.oficinas td {
+    width: 50%;
+    padding: 2em;
+    vertical-align: middle;
+}
+
+.oficinas img {
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+.oficinas td p {
+    font-size: 25px;
+}
+
+.footer {
+    font-weight: 900;
+    padding: 2em 0 2em; 
+    line-height: 1.5em;
+    background-color: black;
+    color: white;          
+}
+
+.instagram {
+    width: 0%;
+    margin: 0 2em 0 2em;
+    display: inline-block; 
+}
+
+.instagram td {
+    width: 35%;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.instagram img {
+    width: 3em;
+    padding: 0 0 0 1em;
+    border: transparent;
+}
+
+.tabla {
+    width: 50%;
+    margin: auto;
+    padding-left: 40%;     
+    display: inline-block;
+}
+
+.fila {
+    width: 30%;
+    padding: 0;
+}
+
+.celda {
+    display: inline-block;    
+}
+
+.celda img {
+    width: 2em;
+    padding: 0;
+    border: transparent;
+    vertical-align: text-top;
+}
+
+.texto {
+    padding-top: 0.3em;
+}
